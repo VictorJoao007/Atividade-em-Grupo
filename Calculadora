@@ -13,13 +13,13 @@ def menu():
 def calculadora():
     while True:
         menu()
-        escolha = input("Digite sua escolha (1/2/3/4) ou 'q' para sair: ")
+        escolha = input("Digite sua escolha (1/2) ou 'q' para sair: ")
 
         if escolha == 'q':
             print("Saindo...")
             break
 
-        if escolha in ['1', '2', '3', '4']:
+        if escolha in ['1', '2']:
             num1 = float(input("Digite o primeiro número: "))
             num2 = float(input("Digite o segundo número: "))
 
